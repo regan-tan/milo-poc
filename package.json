@@ -1,0 +1,12 @@
+{
+  "name": "deckwise",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DeckWise — Cursor for slides. AI-powered slide editing via natural language.",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "build:all": "cd backend && npm run build && cd ../frontend && npm run build"
+  }
+}
